@@ -1,14 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Kugo Test WD</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav-wrapper">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Сервис</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Сотрудничество</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Заказать звонок</a>
+            </li>
+          </ul>
+          <div class="nav-social-links">
+            <svg class="nav-social-link" width="12" height="12">
+              <use href="img/icons/sprite.svg#viber"></use>
+            </svg>
+            <svg class="nav-social-link" width="12" height="12">
+              <use href="img/icons/sprite.svg#whatsapp"></use>
+            </svg>
+            <svg class="nav-social-link" width="12" height="12">
+              <use href="img/icons/sprite.svg#telegram"></use>
+            </svg>
+          </div>
+        </div>
+        <a href="tel:+78005055461" class="nav-phone">+7 (800) 505-54-61</a>
+      </nav>
+    </div>
+    <div class="seporator"></div>
+    <div class="container">
+      <div class="header-nav">
+        <span class="header-logo">Kugoo</span>
+        <button class="button-catalog">
+          <div class="button-catalog-wrapper">
+            <div class="menu-line-wrapper">
+              <div class="button-menu-line"></div>
+              <div class="button-menu-line"></div>
+              <div class="button-menu-line"></div>
+            </div>
+            <p class="button-text">Каталог</p>
+          </div>
+        </button>
+        <form class="form-search">
+          <input class="input" type="text" placeholder="Искать самокат KUGO">
+          <button class="search-button" type="submit">
+            <svg class="search-link" width="16" height="16">
+              <use href="img/icons/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </form>
+        <div class="header-nav-links">
+          <div class="header-nav-items">
+            <svg class="header-nav-link" width="20" height="20">
+              <use href="img/icons/sprite.svg#balance"></use>
+            </svg>
+          </div>
+          <div class="header-nav-items">
+            <svg class="header-nav-link" width="20" height="20">
+              <use href="img/icons/sprite.svg#heart"></use>
+            </svg>
+          </div>
+          <div class="header-nav-items">
+            <svg class="header-nav-link" width="20" height="20">
+              <use href="img/icons/sprite.svg#shopping-cart"></use>
+            </svg>
+            <p class="header-nav-link-text">Корзина</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header header-image">
+      <div class="container header-container">
+        <div class="header-content">
+          <div class="header-content-info">
+            <div class="header-content-map">
+              <svg class="header-content-link" width="15" height="15">
+                <use href="img/icons/sprite.svg#map"></use>
+              </svg>
+              <p class="header-content-text">Восточно-Кругликовская улица, 86</p>
+            </div>
+            <div class="header-content-time">Вт - Сб 10:00 - 20:00</div>
+          </div>
+          <h2 class="header-title section-title">
+            Запишитесь на бесплатный <br> тест-драйв электросамокатов
+          </h2>
+          <div class="header-text-moscow">в Москве без ограничения по времени</div>
+          <div class="check-model-wrapper">
+            <div class="check-model-item">
+              <svg class="check-model-link" width="16" height="16">
+                <use href="img/icons/sprite.svg#scooter"></use>
+              </svg>
+              <p class="check-model-text">Поймете, какая <br> модель вам подходит</p>
+            </div>
+            <div class="check-model-item">
+              <svg class="check-model-link" width="16" height="16">
+                <use href="img/icons/sprite.svg#energo"></use>
+              </svg>
+              <p class="check-model-text">Проверите лучшие <br> самокаты в деле</p>
+            </div>
+          </div>
+          <button class="button-enroll">
+            <p class="button-enroll-text">Записаться</p>
+          </button>
+        </div>
+      </div>
+    </header>
     <script src="js/main.js"></script>
   </body>
 </html>
