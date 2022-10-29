@@ -581,3 +581,50 @@ body {
 .notify-ref {
   color: inherit;
 }
+.footer {
+  width: 100%;
+  height: 585px;
+  background: #F4F7FB;
+}
+.form-subscription-section {
+  width: 100%;
+  height: 97px;
+  background: #6F73EE;
+}
+.form-subscription-wrapper {
+  display: flex;
+  align-items: center;
+}
+.form-subscription-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 95px;
+}
+.subcription-mask {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: none;
+  width: 410px;
+  height: 53px;
+  margin-right: 20px;
+  padding: 15px 25px;
+}
+.subscription-button {
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #6F73EE;
+}
+.footer-nav-wrapper {
+  display: flex;
+}
