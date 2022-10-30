@@ -628,3 +628,69 @@ body {
 .footer-nav-wrapper {
   display: flex;
 }
+.footer-nav-section {
+  margin-top: 46px;
+}
+.nav-list-wrapper {
+  display: flex;
+}
+.contacts-wrapper {
+  display: flex;
+}
+.catalog-list, .buyers-list {
+  margin: 0;
+  padding: 0;
+}
+.list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #282739;
+  margin-bottom: 17px;
+}
+.list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5D6C7B;
+  list-style: none;
+  margin: 0;
+  margin-right: 34px;
+  margin-bottom: 10px;
+}
+.center-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #282739;
+}
+.center-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #282739;
+}
+.center-time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5D6C7B;
+}
+.nav-list-catalog {
+  margin: 0;
+  padding: 0;
+  margin-right: 125px;
+}
+.nav-list-buyers {
+  margin: 0;
+  padding: 0;
+  margin-right: 110px;
+}
+.buyers-list {
+  columns: 2 auto;
+}
