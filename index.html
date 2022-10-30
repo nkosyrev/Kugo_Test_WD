@@ -45,24 +45,26 @@
     <div class="container">
       <div class="header-nav">
         <span class="header-logo">Kugoo</span>
-        <button class="button-catalog">
-          <div class="button-catalog-wrapper">
-            <div class="menu-line-wrapper">
-              <div class="button-menu-line"></div>
-              <div class="button-menu-line"></div>
-              <div class="button-menu-line"></div>
+        <div class="catalog-form">
+          <button class="button-catalog">
+            <div class="button-catalog-wrapper">
+              <div class="menu-line-wrapper">
+                <div class="button-menu-line"></div>
+                <div class="button-menu-line"></div>
+                <div class="button-menu-line"></div>
+              </div>
+              <p class="button-text">Каталог</p>
             </div>
-            <p class="button-text">Каталог</p>
-          </div>
-        </button>
-        <form class="form-search">
-          <input class="input" type="text" placeholder="Искать самокат KUGO">
-          <button class="search-button" type="submit">
-            <svg class="search-link" width="16" height="16">
-              <use href="img/icons/sprite.svg#search"></use>
-            </svg>
           </button>
-        </form>
+          <form class="form-search">
+            <input class="input" type="text" placeholder="Искать самокат KUGO">
+            <button class="search-button" type="submit">
+              <svg class="search-link" width="16" height="16">
+                <use href="img/icons/sprite.svg#search"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
         <div class="header-nav-links">
           <div class="header-nav-items">
             <svg class="header-nav-link" width="20" height="20">
@@ -509,70 +511,153 @@
       </div>
     </section>
     <footer class="footer">
-        <section class="form-subscription-section">
-          <div class="container">
-            <div class="form-subscription-wrapper">
-              <p class="form-subscription-title">Оставьте свою почту и станьте первым, <br> кто получит скидку на новые самокаты</p>
-              <form action="" class="form-subscription">
-                <input 
-                  id="user-email"
-                  type="email" 
-                  class="subcription-mask" 
-                  name="userphone" 
-                  placeholder="Введите Ваш email"
-                  required
-                  >
-              <button class="subscription-button">Подписаться</button>
-              </form>
-            </div>
+      <section class="form-subscription-section">
+        <div class="container">
+          <div class="form-subscription-wrapper">
+            <p class="form-subscription-title">Оставьте свою почту и станьте первым, <br> кто получит скидку на новые самокаты</p>
+            <form action="" class="form-subscription">
+              <input 
+                id="user-email"
+                type="email" 
+                class="subcription-mask" 
+                name="userphone" 
+                placeholder="Введите Ваш email"
+                required
+                >
+            <button class="subscription-button">Подписаться</button>
+            </form>
           </div>
-        </section>
-        <section class="footer-nav-section">
-          <div class="container">
-            <div class="footer-nav-wrapper">
-              <div class="nav-list-wrapper">
-                <div class="nav-list-catalog">
-                  <p class="list-title">Каталог товаров</p>
-                  <ul class="catalog-list">
-                    <li class="list-item">Электросамокаты</li>
-                    <li class="list-item">Электроскутеры</li>
-                    <li class="list-item">Электровелосипеды</li>
-                    <li class="list-item">Электровелосипеды</li>
-                  </ul>
+        </div>
+      </section>
+      <section class="footer-nav-section">
+        <div class="container">
+          <div class="footer-nav-wrapper">
+            <div class="nav-list-wrapper">
+              <div class="nav-list-catalog">
+                <p class="list-title">Каталог товаров</p>
+                <ul class="catalog-list">
+                  <li class="list-item">Электросамокаты</li>
+                  <li class="list-item">Электроскутеры</li>
+                  <li class="list-item">Электровелосипеды</li>
+                  <li class="list-item">Электровелосипеды</li>
+                </ul>
+              </div>
+              <div class="nav-list-buyers">
+                <p class="list-title">Покупателям</p>
+                <ul class="buyers-list">
+                  <li class="list-item">Сервисный центр</li>
+                  <li class="list-item">Доставка и оплата</li>
+                  <li class="list-item">Рассрочка</li>
+                  <li class="list-item">Тест-драйв</li>
+                  <li class="list-item">Блог</li>
+                  <li class="list-item">Сотрудничество</li>
+                  <li class="list-item">Контакты</li>
+                  <li class="list-item">Акции</li>
+                </ul>
+              </div>
+            </div>
+            <div class="contacts">
+              <p class="list-title">Контакты</p>
+              <div class="contacts-wrapper">
+                <div class="call-center-wrapper">
+                  <p class="center-title">Call-центр</p>
+                  <p class="center-phone">+7 (800) 505-54-61</p>
+                  <p class="center-time">Пн-Вс 10:00 - 20:00</p>
                 </div>
-                <div class="nav-list-buyers">
-                  <p class="list-title">Покупателям</p>
-                  <ul class="buyers-list">
-                    <li class="list-item">Сервисный центр</li>
-                    <li class="list-item">Доставка и оплата</li>
-                    <li class="list-item">Рассрочка</li>
-                    <li class="list-item">Тест-драйв</li>
-                    <li class="list-item">Блог</li>
-                    <li class="list-item">Сотрудничество</li>
-                    <li class="list-item">Контакты</li>
-                    <li class="list-item">Акции</li>
-                  </ul>
+                <div class="service-center-wrapper">
+                  <p class="center-title">Сервисный центр</p>
+                  <p class="center-phone">+7 (499) 350-76-92</p>
+                  <p class="center-time">Пн-Вс 10:00 - 20:00</p>
                 </div>
               </div>
-              <div class="contacts">
-                <p class="list-title">Контакты</p>
-                <div class="contacts-wrapper">
-                  <div class="call-center-wrapper">
-                    <p class="center-title">Call-центр</p>
-                    <p class="center-phone">+7 (800) 505-54-61</p>
-                    <p class="center-time">Пн-Вс 10:00 - 20:00</p>
-                  </div>
-                  <div class="service-center-wrapper">
-                    <p class="center-title">Сервисный центр</p>
-                    <p class="center-phone">+7 (499) 350-76-92</p>
-                    <p class="center-time">Пн-Вс 10:00 - 20:00</p>
+            </div>
+            <a href="#" class="order-call">Заказать звонок</a>
+          </div>
+        </div>
+      </section>
+      <section class="section-advertising">
+        <div class="container">
+          <div class="seporator footer-seporator"></div>
+          <div class="advertising-wrapper">
+            <div class="shops-wrapper">
+              <span class="header-logo logo-footer">Kugoo</span>
+              <img class="google-play-image" src="img/google-play.jpg" alt="google-play">
+              <img class="app-store-image" src="img/app-store.jpg" alt="app-store">
+            </div>
+            <div class="social-wrapper">
+              <button class="social-button">
+                <div class="social-button-wrapper">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="img/icons/sprite.svg#vk"></use>
+                  </svg>
+                  <div class="social-subscribers">
+                    <p class="social-logo-title">Вконтакте</p>
+                    <p class="subscribers">3 300</p>
                   </div>
                 </div>
-              </div>
-              <a href="#" class="order-call">Заказать звонок</a>
+              </button>
+              <button class="social-button">
+                <div class="social-button-wrapper">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="img/icons/sprite.svg#youtube"></use>
+                  </svg>
+                  <div class="social-subscribers">
+                    <p class="social-logo-title">YouTube</p>
+                    <p class="subscribers youtube-subscribers">3 603</p>
+                  </div>
+                </div>
+              </button>
+              <button class="social-button">
+                <div class="social-button-wrapper">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="img/icons/sprite.svg#telegram-2"></use>
+                  </svg>
+                  <div class="social-subscribers">
+                    <p class="social-logo-title">Telegram</p>
+                    <p class="subscribers">432</p>
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
-        </section>
+          <div class="seporator footer-seporator"></div>
+        </div>
+      </section>
+      <section class="section-information">
+        <div class="container">
+          <div class="information-wrapper">
+            <div class="notify-information">
+              <p class="requisites-info-text">Реквизиты</p>
+              <p class="notify-info-text">Политика конфиденциальности</p>
+            </div>
+            <div class="payments-chats-wrapper">
+              <div class="payment-methods">
+                <img src="img/gpay.jpg" alt="gpay" class="payments">
+                <img src="img/appay.jpg" alt="appay" class="payments">
+                <img src="img/visa.jpg" alt="visa" class="payments">
+                <img src="img/mastercard.jpg" alt="mastercard" class="payments">
+                <img src="img/maestro.jpg" alt="maestro" class="payments">
+                <img src="img/webmoney.jpg" alt="webmoney" class="payments">
+                <img src="img/qiwi.jpg" alt="qiwi" class="payments">
+              </div>
+              <div class="chat-links">
+                <p class="chat-links-title">Online чат:</p>
+                <div class="social-chat-links">
+                  <svg class="social-chat-link" width="16" height="16">
+                    <use href="img/icons/sprite.svg#viber"></use>
+                  </svg>
+                  <svg class="social-chat-link" width="16" height="16">
+                    <use href="img/icons/sprite.svg#whatsapp"></use>
+                  </svg>
+                  <svg class="social-chat-link" width="16" height="16">
+                    <use href="img/icons/sprite.svg#telegram"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
     <script src="js/main.js"></script>
   </body>

@@ -6,7 +6,7 @@ body {
   font-family: 'Jost', sans-serif;
 }
 .container {
-  max-width: 68.75rem;
+  max-width: 1210px;
   margin: auto;
   padding: 0;
 }
@@ -19,6 +19,8 @@ body {
 .nav-wrapper {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .nav-list {
   display: flex;
@@ -52,6 +54,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 1.875rem;
   margin-bottom: 2.5rem;
 }
@@ -62,7 +65,10 @@ body {
   line-height: 43px;
   text-transform: uppercase;
   color: #282739;
-  margin-right: 2.1875rem;
+}
+.catalog-form {
+  display: flex;
+  align-items: center;
 }
 .button-catalog {
   margin: 0;
@@ -206,6 +212,8 @@ body {
   display: flex;
   align-items: center;
   gap: 35px;
+  margin: 0;
+  padding: 0;
 }
 .check-model-item {
   display: flex;
@@ -275,6 +283,8 @@ body {
 .section-models-wrapper-2 {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
   margin-right: -50px;
 }
 .section-models-content {
@@ -325,8 +335,13 @@ body {
 .section-choice-model {
   margin-bottom: 100px;
 }
+.choice-model-wrapper {
+  margin: 0;
+  padding: 0;
+}
 .choice-model-cards {
   display: flex;
+  justify-content: space-around;
   gap: 30px;
 }
 .choice-model-image {
@@ -520,6 +535,8 @@ body {
 }
 .section-cta-wrapper {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 .section-cta-title {
   font-style: normal;
@@ -594,6 +611,7 @@ body {
 .form-subscription-wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .form-subscription-title {
   font-style: normal;
@@ -627,15 +645,28 @@ body {
 }
 .footer-nav-wrapper {
   display: flex;
+  justify-content: space-around;
 }
 .footer-nav-section {
   margin-top: 46px;
+  margin-bottom: 75px;
 }
 .nav-list-wrapper {
   display: flex;
 }
+.contacts {
+  margin: 0;
+  padding: 0;
+}
 .contacts-wrapper {
   display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.call-center-wrapper, .service-center-wrapper {
+  margin: 0;
+  padding: 0;
 }
 .catalog-list, .buyers-list {
   margin: 0;
@@ -647,6 +678,8 @@ body {
   font-size: 18px;
   line-height: 26px;
   color: #282739;
+  margin: 0;
+  padding: 0;
   margin-bottom: 17px;
 }
 .list-item {
@@ -657,6 +690,7 @@ body {
   color: #5D6C7B;
   list-style: none;
   margin: 0;
+  padding: 0;
   margin-right: 34px;
   margin-bottom: 10px;
 }
@@ -666,6 +700,9 @@ body {
   font-size: 12px;
   line-height: 17px;
   color: #282739;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
 }
 .center-phone {
   font-style: normal;
@@ -673,6 +710,9 @@ body {
   font-size: 16px;
   line-height: 23px;
   color: #282739;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
 }
 .center-time {
   font-style: normal;
@@ -680,17 +720,156 @@ body {
   font-size: 12px;
   line-height: 17px;
   color: #5D6C7B;
+  margin: 0;
+  padding: 0;
 }
 .nav-list-catalog {
   margin: 0;
   padding: 0;
-  margin-right: 125px;
+  margin-right: 90px;
 }
 .nav-list-buyers {
   margin: 0;
   padding: 0;
-  margin-right: 110px;
+  margin-right: 40px;
 }
 .buyers-list {
   columns: 2 auto;
+}
+.order-call {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #6F73EE;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.footer-seporator {
+  opacity: 0.15;
+  border: 1px solid #5D6C7B;
+}
+.advertising-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 34px;
+}
+.image-store-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.shops-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.logo-footer {
+  margin-right: 50px;
+}
+.google-play-image, .app-store-image {
+  border-radius: 5px;
+}
+.social-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.social-button-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.social-button {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+.social-icon {
+  margin: 0;
+  padding: 0;
+  margin: 12px;
+}
+.social-logo-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #282739;
+  margin: 0;
+  padding: 0;
+}
+.social-subscribers {
+  padding-top: 5px;
+  padding-right: 22px;
+}
+.subscribers {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #5D6C7B;
+  margin: 0;
+  padding-right: 35px;
+}
+.youtube-subscribers {
+  padding-right: 20px;
+}
+.information-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+.notify-information {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 44px;
+}
+.requisites-info-text, .notify-info-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5D6C7B;
+  margin: 0;
+  padding: 0;
+}
+.payments-chats-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.payment-methods {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.payments {
+  border-radius: 5px;
+}
+.chat-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.chat-links-title {
+  margin: 0;
+  padding: 0;
+}
+.social-chat-links {
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
