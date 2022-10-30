@@ -4,6 +4,7 @@
 body {
   background: #F5F5F5;
   font-family: 'Jost', sans-serif;
+  margin: 0;
 }
 .container {
   max-width: 1210px;
@@ -827,7 +828,7 @@ body {
   justify-content: space-between;
   margin: 0;
   margin-top: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding: 0;
 }
 .notify-information {
