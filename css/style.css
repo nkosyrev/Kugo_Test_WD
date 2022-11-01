@@ -177,8 +177,8 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 72px;
-  background: linear-gradient(73.21deg, #6F73EE 17.56%, rgba(111, 115, 238, 0) 67.21%), url(../img/young-woman.jpg);
-  background-position: right 0;
+  background: linear-gradient(73.21deg, #6F73EE 41.56%, rgba(111, 115, 238, 0) 67.21%), url(../img/young-woman.webp);
+  background-position: right bottom 0px;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
