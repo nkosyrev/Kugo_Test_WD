@@ -565,7 +565,7 @@ body {
   position: absolute;
   right: -20px;
   bottom: 0;
-  width: 59%;
+  width: 52%;
   height: 112%;
   background: inherit;
 }
@@ -740,36 +740,45 @@ body {
   margin-bottom: 18px;
 }
 .list-item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #5D6C7B;
   list-style: none;
   margin: 0;
   padding: 0;
   margin-right: 32px;
   margin-bottom: 10px;
 }
+.list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5D6C7B;
+  text-decoration: none;
+  list-style: none;
+}
 .center-title {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.center-link {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
   color: #282739;
-  margin: 0;
-  margin-bottom: 5px;
-  padding: 0;
+  text-decoration: none;
 }
 .center-phone {
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+}
+.center-phone-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
   color: #282739;
-  margin: 0;
-  margin-bottom: 7px;
-  padding: 0;
 }
 .center-time {
   font-style: normal;
@@ -799,7 +808,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
-  color: #6F73EE;
+  color: #5D6C7B;
   text-decoration: none;
   margin-top: 7px;
 }
@@ -1084,18 +1093,40 @@ body {
   height: 497px;
 }
 
+
 @media (hover: hover) and (pointer: fine) {
   .model-icon-link:hover {
+    transition: fill 0.2s;
     fill: #6F73EE;
   }
   .header-nav-link:hover {
+    transition: fill 0.2s;
     fill: #6F73EE;
   }
-.header-nav-link-text:hover {
-  color: #6F73EE;
-}
+  .header-nav-link-text:hover {
+    transition: fill 0.2s;
+    color: #6F73EE;
+  }
   .header-nav-link-balance:hover {
+    transition: filter 0.2s;
     filter: grayscale(0%);
+  }
+  .nav-link:hover {
+    color: #6F73EE;
+    transition: font-size 0.3s;
+    font-size: 14px;
+  }
+  .list-link:hover {
+    color: #6F73EE;
+  }
+  .center-link:hover {
+    color: #6F73EE;
+  }
+  .center-phone-link:hover {
+    color: #6F73EE;
+  }
+  .order-call:hover {
+    color: #6F73EE;
   }
 }
 
