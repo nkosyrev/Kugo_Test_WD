@@ -69,6 +69,7 @@ body {
   line-height: 43px;
   text-transform: uppercase;
   color: #282739;
+  text-decoration: none;
   margin-right: 35px;
 }
 .catalog-form {
@@ -154,6 +155,9 @@ body {
 .header-nav-items {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  fill: #5D6C7B;;
 }
 .header-nav-link-text {
   margin-left: 10px;
