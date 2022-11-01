@@ -157,7 +157,12 @@ body {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  fill: #5D6C7B;;
+}
+.header-nav-link {
+  fill: #5D6C7B;
+}
+.header-nav-link-balance {
+  filter: grayscale(100%);
 }
 .header-nav-link-text {
   margin-left: 10px;
@@ -526,6 +531,7 @@ body {
 .model-icon-link {
   margin: 5px;
   margin-top: 9px;
+  fill: #5D6C7B;
 }
 .button-enroll-test {
   margin-left: 24px;
@@ -1077,6 +1083,22 @@ body {
   width: 338px;
   height: 497px;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  .model-icon-link:hover {
+    fill: #6F73EE;
+  }
+  .header-nav-link:hover {
+    fill: #6F73EE;
+  }
+.header-nav-link-text:hover {
+  color: #6F73EE;
+}
+  .header-nav-link-balance:hover {
+    filter: grayscale(0%);
+  }
+}
+
 
 @media (max-width: 1300px) {
   .section-models-photo {
