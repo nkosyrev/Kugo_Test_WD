@@ -799,8 +799,6 @@ body {
 }
 .advertising-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   margin-top: 36px;
@@ -818,15 +816,19 @@ body {
   padding: 0;
   gap: 10px;
 }
+.shops-social-wrapper {
+  display: flex;
+  gap: 241px;
+}
 .logo-footer {
-  margin-right: 50px;
+  margin-right: 59px;
 }
 .google-play-image, .app-store-image {
   border-radius: 5px;
 }
 .social-wrapper {
   display: flex;
-  gap: 10px;
+  gap: 6px;
   margin: 0;
   padding: 0;
 }
@@ -1099,6 +1101,9 @@ body {
 .nav-list-catalog, .nav-list-buyers {
   margin-right: 0;
 }
+.shops-social-wrapper {
+  gap: 136px;
+}
 }
 @media (max-width: 1100px) {
   .navbar, .header-nav {
@@ -1179,6 +1184,9 @@ body {
   .footer-nav-wrapper {
     justify-content: space-around;
   }
+  .shops-social-wrapper {
+    gap: 15px;
+  }
 }
 @media (max-width: 920px) {
   .header {
@@ -1211,9 +1219,6 @@ body {
   .header-logo {
     margin-right: 10px;
   }
-  .advertising-wrapper {
-    flex-direction: column;
-  }
   .information-wrapper {
     flex-direction: column;
   }
@@ -1225,6 +1230,10 @@ body {
   }
   .header-nav-links {
     gap: 10px;
+  }
+  .shops-social-wrapper {
+    align-items: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 660px) {
