@@ -43,6 +43,10 @@ body {
 .nav-social-links {
   display: flex;
   gap: 0.5625rem;
+  cursor: pointer;
+}
+.nav-social-link {
+  filter: grayscale(100%);
 }
 .nav-phone {
   text-decoration: none;
@@ -93,6 +97,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
+  cursor: pointer;
 }
 .button-text {
   margin: auto;
@@ -157,9 +162,6 @@ body {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-}
-.header-nav-link {
-  fill: #5D6C7B;
 }
 .header-nav-link-balance {
   filter: grayscale(100%);
@@ -639,6 +641,9 @@ body {
   gap: 12px;
   margin-bottom: 78px;
 }
+.notify-info-link {
+  text-decoration: none;
+}
 .notify-text {
   font-style: normal;
   font-weight: 400;
@@ -827,7 +832,7 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 36px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 .logo-footer-title {
   margin: 0;
@@ -847,7 +852,7 @@ body {
 }
 .shops-social-wrapper {
   display: flex;
-  gap: 241px;
+  gap: 233px;
 }
 .logo-footer {
   margin-right: 59px;
@@ -857,7 +862,7 @@ body {
 }
 .social-wrapper {
   display: flex;
-  gap: 6px;
+  gap: 15px;
   margin: 0;
   padding: 0;
 }
@@ -887,7 +892,7 @@ body {
   padding: 0;
 }
 .social-subscribers {
-  padding-right: 14px;
+  padding-right: 18px;
 }
 .subscribers {
   font-style: normal;
@@ -906,7 +911,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 20px;
   padding: 0;
 }
@@ -929,7 +934,7 @@ body {
 .payments-chats-wrapper {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 41px;
 }
 .payment-methods {
   display: flex;
@@ -1232,6 +1237,9 @@ body {
   .section-models-wrapper-2 {
     margin-right: 0;
   }
+  .test-drive {
+    margin-left: 30px;
+  }
 }
 @media (max-width: 1030px) {
   .choice-model-cards {
@@ -1285,6 +1293,9 @@ body {
   }
   .contacts {
     margin-bottom: 20px;
+  }
+  .advertising-wrapper {
+    justify-content: center;
   }
 }
 @media (max-width: 790px) {
@@ -1347,7 +1358,7 @@ body {
     font-size: 14px;
   }
   .nav-list-wrapper {
-    display: inline-block;
+    flex-direction: column;
   }
   .list-title {
     text-align: center;
@@ -1364,6 +1375,37 @@ body {
   }
   .model-price-wrapper {
     justify-content: space-around;
+  }
+  .footer-nav-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .buyers-list {
+    margin-right: 0;
+  }
+  .catalog-list, .buyers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-nav-wrapper {
+    margin-left: 0;
+  }
+  .list-item {
+    margin-right: 0;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .order-call {
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
