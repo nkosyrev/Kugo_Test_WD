@@ -43,10 +43,10 @@ body {
 .nav-social-links {
   display: flex;
   gap: 0.5625rem;
-  cursor: pointer;
+  
 }
 .nav-social-link {
-  filter: grayscale(100%);
+  cursor: pointer;
 }
 .nav-phone {
   text-decoration: none;
