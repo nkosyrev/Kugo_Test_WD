@@ -427,6 +427,9 @@ body {
   width: 63px;
   height: 25px;
 }
+.model-icon-link-balance {
+  filter: grayscale(100%);
+}
 .button-sales-text, .button-sales-text-new {
   margin: 0;
   padding-top: 4px;
@@ -1115,6 +1118,10 @@ body {
     color: #6F73EE;
   }
   .header-nav-link-balance:hover {
+    transition: filter 0.2s;
+    filter: grayscale(0%);
+  }
+  .model-icon-link-balance:hover {
     transition: filter 0.2s;
     filter: grayscale(0%);
   }

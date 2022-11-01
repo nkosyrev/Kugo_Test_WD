@@ -164,10 +164,18 @@
           </div>
         </div>
       </div>
-      <img class="section-models-photo" src="img/model-1.jpg" alt="">
+      <picture>
+        <source class="section-models-photo" width="515" height="422" type="image/webp" srcset="img/model-1.webp">
+        <source class="section-models-photo" width="515" height="422" type="image/jpeg" srcset="img/model-1.jpg">
+        <img class="section-models-photo" width="515" height="422" src="img/model-1.jpg" alt="">
+      </picture>
     </section>
     <section class="section-models">
-      <img class="section-models-photo-2" src="img/model-2.jpg" alt="">
+      <picture>
+        <source class="section-models-photo-2" width="515" height="463" type="image/webp" srcset="img/model-2.webp">
+        <source class="section-models-photo-2" width="515" height="463" type="image/jpeg" srcset="img/model-2.jpg">
+        <img class="section-models-photo-2" width="515" height="463" src="img/model-2.jpg" alt="">
+      </picture>
       <div class="container">
         <div class="section-models-wrapper-2">
           <div class="section-models-content">
@@ -221,11 +229,15 @@
                     <span class="button-sales-text">ХИТ</span>
                   </button>
                   <button class="button button-sales-icon">
-                    <svg class="model-icon-link" width="20" height="20">
+                    <svg class="model-icon-link-balance" width="20" height="20">
                       <use href="img/icons/sprite.svg#balance"></use>
                     </svg>
                   </button>
-                <img src="img/scooter.jpg" alt="scooter" class="choice-model-image">
+                <picture>
+                  <source class="choice-model-image" width="255" height="231" type="image/webp" srcset="img/scooter.webp">
+                  <source class="choice-model-image" width="255" height="231" type="image/jpeg" srcset="img/scooter.jpg">
+                  <img src="img/scooter.jpg" width="255" height="231" alt="scooter" class="choice-model-image">
+                </picture>
               </div>
               <h4 class="model-card-title">Kugoo Kirin M4</h4>
               <div class="model-description-wrapper">
@@ -285,11 +297,15 @@
                     <span class="button-sales-text button-sales-text-new">Новинка</span>
                   </button>
                   <button class="button button-sales-icon">
-                    <svg class="model-icon-link" width="20" height="20">
+                    <svg class="model-icon-link-balance" width="20" height="20">
                       <use href="img/icons/sprite.svg#balance"></use>
                     </svg>
                   </button>
-                <img src="img/scooter.jpg" alt="scooter" class="choice-model-image">
+                <picture>
+                  <source class="choice-model-image" width="255" height="231" type="image/webp" srcset="img/scooter.webp">
+                  <source class="choice-model-image" width="255" height="231" type="image/jpeg" srcset="img/scooter.jpg">
+                  <img src="img/scooter.jpg" width="255" height="231" alt="scooter" class="choice-model-image">
+                </picture>
               </div>
               <h4 class="model-card-title">Kugoo Kirin M4</h4>
               <div class="model-description-wrapper">
@@ -349,11 +365,15 @@
                     <span class="button-sales-text">ХИТ</span>
                   </button>
                   <button class="button button-sales-icon">
-                    <svg class="model-icon-link" width="20" height="20">
+                    <svg class="model-icon-link-balance" width="20" height="20">
                       <use href="img/icons/sprite.svg#balance"></use>
                     </svg>
                   </button>
-                <img src="img/scooter.jpg" alt="scooter" class="choice-model-image">
+                <picture>
+                  <source class="choice-model-image" width="255" height="231" type="image/webp" srcset="img/scooter.webp">
+                  <source class="choice-model-image" width="255" height="231" type="image/jpeg" srcset="img/scooter.jpg">
+                  <img src="img/scooter.jpg" width="255" height="231" alt="scooter" class="choice-model-image">
+                </picture>
               </div>
               <h4 class="model-card-title">Kugoo Kirin M4</h4>
               <div class="model-description-wrapper">
@@ -413,11 +433,15 @@
                     <span class="button-sales-text button-sales-text-new">Новинка</span>
                   </button>
                   <button class="button button-sales-icon">
-                    <svg class="model-icon-link" width="20" height="20">
+                    <svg class="model-icon-link-balance" width="20" height="20">
                       <use href="img/icons/sprite.svg#balance"></use>
                     </svg>
                   </button>
-                <img src="img/scooter.jpg" alt="scooter" class="choice-model-image">
+                <picture>
+                  <source class="choice-model-image" width="255" height="231" type="image/webp" srcset="img/scooter.webp">
+                  <source class="choice-model-image" width="255" height="231" type="image/jpeg" srcset="img/scooter.jpg">
+                  <img src="img/scooter.jpg" width="255" height="231" alt="scooter" class="choice-model-image">
+                </picture>
               </div>
               <h4 class="model-card-title">Kugoo Kirin M4</h4>
               <div class="model-description-wrapper">
@@ -488,7 +512,7 @@
                     type="tel" 
                     class="input phone-mask"
                     name="userphone"
-                    maxlength="12"
+                    maxlength="11"
                     placeholder="+7 (___) __ - __ - __"
                     required>
                   <button class="button cta-form-button">
@@ -506,7 +530,11 @@
               </p>
             </div>
           </div>
-          <img class="cta-image" src="img/cta-photo.png" alt="cta-photo">
+          <picture>
+            <source class="cta-image" width="410" height="607" type="image/webp" srcset="img/cta-photo.webp">
+            <source class="cta-image" width="410" height="607" type="image/jpeg" srcset="img/cta-photo.png">
+            <img class="cta-image" src="img/cta-photo.png" alt="cta-photo">
+          </picture>
         </div>
       </div>
     </section>
@@ -622,8 +650,16 @@
             </h6>
             <div class="shops-social-wrapper">
               <div class="shops-wrapper">
-                <img class="google-play-image" src="img/google-play.jpg" alt="google-play">
-                <img class="app-store-image" src="img/app-store.jpg" alt="app-store">
+                <picture>
+                  <source class="google-play-image" width="152" height="45" type="image/webp" srcset="img/google-play.webp">
+                  <source class="google-play-image" width="152" height="45" type="image/jpeg" srcset="img/google-play.jpg">
+                  <img class="google-play-image" src="img/google-play.jpg" alt="google-play">
+                </picture>
+                <picture>
+                  <source class="app-store-image" width="152" height="45" type="image/webp" srcset="img/app-store.webp">
+                  <source class="app-store-image" width="152" height="45" type="image/jpeg" srcset="img/app-store.jpg">
+                  <img class="app-store-image" src="img/app-store.jpg" alt="app-store">
+                </picture>
               </div>
               <div class="social-wrapper">
                 <div class="button social-button">
@@ -674,13 +710,41 @@
             </div>
             <div class="payments-chats-wrapper">
               <div class="payment-methods">
-                <img src="img/gpay.jpg" alt="gpay" class="payments">
-                <img src="img/appay.jpg" alt="appay" class="payments">
-                <img src="img/visa.jpg" alt="visa" class="payments">
-                <img src="img/mastercard.jpg" alt="mastercard" class="payments">
-                <img src="img/maestro.jpg" alt="maestro" class="payments">
-                <img src="img/webmoney.jpg" alt="webmoney" class="payments">
-                <img src="img/qiwi.jpg" alt="qiwi" class="payments">
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/gpay.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/gpay.jpg">
+                  <img src="img/gpay.jpg" width="34" height="23" alt="gpay" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/appay.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/appay.jpg">
+                  <img src="img/appay.jpg" width="34" height="23" alt="appay" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/visa.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/visa.jpg">
+                  <img src="img/visa.jpg" width="34" height="23" alt="visa" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/mastercard.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/mastercard.jpg">
+                  <img src="img/mastercard.jpg" width="34" height="23" alt="mastercard" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/maestro.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/maestro.jpg">
+                  <img src="img/maestro.jpg" width="34" height="23" alt="maestro" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/webmoney.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/webmoney.jpg">
+                  <img src="img/webmoney.jpg" width="34" height="23" alt="webmoney" class="payments">
+                </picture>
+                <picture>
+                  <source class="payments" width="34" height="23" type="image/webp" srcset="img/qiwi.webp">
+                  <source class="payments" width="34" height="23" type="image/jpeg" srcset="img/qiwi.jpg">
+                  <img src="img/qiwi.jpg" width="34" height="23" alt="qiwi" class="payments">
+                </picture>
               </div>
               <div class="chat-links">
                 <p class="chat-links-title">Online чат:</p>
@@ -721,7 +785,7 @@
                     type="tel" 
                     class="input modal-input phone-mask"
                     name="userphone"
-                    maxlength="12"
+                    maxlength="11"
                     placeholder="+7 (___) __ - __ - __"
                     required>
                   <button class="button modal-form-button">
@@ -738,7 +802,11 @@
                 </div>
             </form>
           </div>
-          <img class="modal-photo" src="img/modal-photo.jpg" alt="modal-photo">
+          <picture>
+            <source class="modal-photo" width="338" height="497" type="image/webp" srcset="img/modal-photo.webp">
+            <source class="modal-photo" width="338" height="497" type="image/jpeg" srcset="img/modal-photo.jpg">
+            <img class="modal-photo" width="338" height="497" src="img/modal-photo.jpg" alt="modal-photo">
+          </picture>
         </div>
       </div>
     </div>
