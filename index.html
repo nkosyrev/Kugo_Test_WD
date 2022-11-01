@@ -47,7 +47,7 @@
       <div class="header-nav">
         <div class="catalog-form">
           <a href="./" class="header-logo">Kugoo</a>
-          <button class="button button-catalog">
+          <div class="button-catalog">
             <div class="button-catalog-wrapper">
               <div class="menu-line-wrapper">
                 <div class="button-menu-line"></div>
@@ -56,7 +56,7 @@
               </div>
               <p class="button-text">Каталог</p>
             </div>
-          </button>
+          </div>
           <form class="form-search">
             <input class="input" type="text" placeholder="Искать самокат KUGO">
             <button class="button search-button" type="submit">
@@ -218,7 +218,7 @@
             <div class="choice-model-card">
               <div class="model-image-wrapper">
                   <button class="button button-sales">
-                    <p class="button-sales-text">ХИТ</p>
+                    <span class="button-sales-text">ХИТ</span>
                   </button>
                   <button class="button button-sales-icon">
                     <svg class="model-icon-link" width="20" height="20">
@@ -275,14 +275,14 @@
                 </div>
               </div>
               <button class="button button-enroll-test" data-toggle="modal">
-                <p class="button-enroll-test-text">Записаться на тест-драйв</p>
+                <span class="button-enroll-test-text">Записаться на тест-драйв</span>
               </button>
             </div>
             <!-- /. choice-model-card -->
             <div class="choice-model-card">
               <div class="model-image-wrapper">
                   <button class="button button-sales button-sales-new">
-                    <p class="button-sales-text button-sales-text-new">Новинка</p>
+                    <span class="button-sales-text button-sales-text-new">Новинка</span>
                   </button>
                   <button class="button button-sales-icon">
                     <svg class="model-icon-link" width="20" height="20">
@@ -339,14 +339,14 @@
                 </div>
               </div>
               <button class="button button-enroll-test" data-toggle="modal">
-                <p class="button-enroll-test-text">Записаться на тест-драйв</p>
+                <span class="button-enroll-test-text">Записаться на тест-драйв</span>
               </button>
             </div>
             <!-- /. choice-model-card -->
             <div class="choice-model-card">
               <div class="model-image-wrapper">
                   <button class="button button-sales">
-                    <p class="button-sales-text">ХИТ</p>
+                    <span class="button-sales-text">ХИТ</span>
                   </button>
                   <button class="button button-sales-icon">
                     <svg class="model-icon-link" width="20" height="20">
@@ -403,14 +403,14 @@
                 </div>
               </div>
               <button class="button button-enroll-test" data-toggle="modal">
-                <p class="button-enroll-test-text">Записаться на тест-драйв</p>
+                <span class="button-enroll-test-text">Записаться на тест-драйв</span>
               </button>
             </div>
             <!-- /. choice-model-card -->
             <div class="choice-model-card">
               <div class="model-image-wrapper">
                   <button class="button button-sales button-sales-new">
-                    <p class="button-sales-text button-sales-text-new">Новинка</p>
+                    <span class="button-sales-text button-sales-text-new">Новинка</span>
                   </button>
                   <button class="button button-sales-icon">
                     <svg class="model-icon-link" width="20" height="20">
@@ -467,7 +467,7 @@
                 </div>
               </div>
               <button class="button button-enroll-test" data-toggle="modal">
-                <p class="button-enroll-test-text">Записаться на тест-драйв</p>
+                <span class="button-enroll-test-text">Записаться на тест-драйв</span>
               </button>
             </div>
             <!-- /. choice-model-card -->
@@ -514,8 +514,10 @@
       <section class="form-subscription-section">
         <div class="container">
           <div class="form-subscription-wrapper">
-            <p class="form-subscription-title">Оставьте свою почту и станьте первым, <br> кто получит скидку на новые самокаты</p>
-            <form action="" class="form-subscription">
+            <div>
+              <p class="form-subscription-title">Оставьте свою почту и станьте первым, <br> кто получит скидку на новые самокаты</p>
+            </div>
+            <form action="#" class="form-subscription">
               <input 
                 id="user-email"
                 type="email" 
@@ -534,7 +536,7 @@
           <div class="footer-nav-wrapper">
             <div class="nav-list-wrapper">
               <div class="nav-list-catalog">
-                <p class="list-title">Каталог товаров</p>
+                <h3 class="list-title">Каталог товаров</h3>
                 <ul class="catalog-list">
                   <li class="list-item">
                     <a href="#" class="list-link">Электросамокаты</a>
@@ -551,7 +553,7 @@
                 </ul>
               </div>
               <div class="nav-list-buyers">
-                <p class="list-title">Покупателям</p>
+                <h3 class="list-title">Покупателям</h3>
                 <ul class="buyers-list">
                   <li class="list-item">
                     <a href="#" class="list-link">Сервисный центр</a>
@@ -581,7 +583,7 @@
               </div>
             </div>
             <div class="contacts">
-              <p class="list-title">Контакты</p>
+              <h3 class="list-title">Контакты</h3>
               <div class="contacts-wrapper">
                 <div class="call-center-wrapper">
                   <p class="center-title">
@@ -615,14 +617,16 @@
         <div class="container">
           <div class="seporator footer-seporator"></div>
           <div class="advertising-wrapper">
-            <a href="./" class="header-logo logo-footer">Kugoo</a>
+            <h6 class="logo-footer-title">
+              <a href="./" class="header-logo logo-footer">Kugoo</a>
+            </h6>
             <div class="shops-social-wrapper">
               <div class="shops-wrapper">
                 <img class="google-play-image" src="img/google-play.jpg" alt="google-play">
                 <img class="app-store-image" src="img/app-store.jpg" alt="app-store">
               </div>
               <div class="social-wrapper">
-                <button class="button social-button">
+                <div class="button social-button">
                   <div class="social-button-wrapper">
                     <svg class="social-icon" width="20" height="20">
                       <use href="img/icons/sprite.svg#vk"></use>
@@ -632,8 +636,8 @@
                       <p class="subscribers">3 300</p>
                     </div>
                   </div>
-                </button>
-                <button class="button social-button">
+                </div>
+                <div class="button social-button">
                   <div class="social-button-wrapper">
                     <svg class="social-icon" width="20" height="20">
                       <use href="img/icons/sprite.svg#youtube"></use>
@@ -643,8 +647,8 @@
                       <p class="subscribers youtube-subscribers">3 603</p>
                     </div>
                   </div>
-                </button>
-                <button class="button social-button">
+                </div>
+                <div class="button social-button">
                   <div class="social-button-wrapper">
                     <svg class="social-icon" width="20" height="20">
                       <use href="img/icons/sprite.svg#telegram-2"></use>
@@ -654,7 +658,7 @@
                       <p class="subscribers">432</p>
                     </div>
                   </div>
-                </button>
+                </div>
               </div>
             </div>
           </div>
