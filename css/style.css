@@ -1184,7 +1184,7 @@ input[type="checkbox"]:checked + label:after {
 }
 
 
-@media (hover: hover) and (pointer: fine) {
+@media(min-width: 992px) {
   .header-nav-link:hover {
     transition: fill 0.2s;
     fill: #6F73EE;
@@ -1224,6 +1224,24 @@ input[type="checkbox"]:checked + label:after {
   }
   .model-icon-link:hover {
     fill: #6F73EE;
+  }
+  .button-catalog:hover {
+    background: #8589f0;
+  }
+  .search-button:hover {
+    background: #8589f0;
+  }
+  .button-enroll:hover {
+    background: #cfd0f5;
+  }
+  .button-enroll-test:hover {
+    background: #8589f0;
+  }
+  .cta-form-button:hover {
+    background: #8589f0;
+  }
+  .subscription-button:hover {
+    background: #cfd0f5;
   }
 }
 
