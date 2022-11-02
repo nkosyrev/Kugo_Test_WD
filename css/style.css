@@ -545,6 +545,9 @@ body {
   fill: #5D6C7B;
   cursor: pointer;
 }
+.icon-active {
+  fill: #6F73EE;
+}
 .button-enroll-test {
   margin-left: 24px;
   margin-right: 24px;
