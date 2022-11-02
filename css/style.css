@@ -545,9 +545,6 @@ body {
   fill: #5D6C7B;
   cursor: pointer;
 }
-.icon-active {
-  fill: #6F73EE;
-}
 .button-enroll-test {
   margin-left: 24px;
   margin-right: 24px;
@@ -1224,6 +1221,9 @@ input[type="checkbox"]:checked + label:after {
   .order-call:hover {
     transition: color 0.2s;
     color: #6F73EE;
+  }
+  .model-icon-link:hover {
+    fill: #6F73EE;
   }
 }
 
