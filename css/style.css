@@ -43,7 +43,10 @@ body {
 .nav-social-links {
   display: flex;
   gap: 0.5625rem;
-  
+  cursor: pointer;
+}
+.nav-social-link {
+  filter: grayscale(100%);
 }
 .nav-social-link {
   cursor: pointer;
@@ -162,6 +165,9 @@ body {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
+}
+.header-nav-link {
+  fill: #5D6C7B;
 }
 .header-nav-link-balance {
   filter: grayscale(100%);
