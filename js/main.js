@@ -16,8 +16,8 @@ modalClose.addEventListener("click", (event) => {
 });
 
 
-document.querySelector(".model-icon-link").addEventListener("click", (e)=>{
-  e.target.classList.toggle("icon-active");
+document.querySelectorAll(".model-icon-link").addEventListener("click", (e)=>{
+  e.target.classList.toggle("icon-active")
 });
 
 /* Создаем префикс +7, даже если вводят 8 или 9 */
