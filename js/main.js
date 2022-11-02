@@ -3,6 +3,7 @@ const modalToggle = document.querySelectorAll("[data-toggle=modal]");
 const modalClose = document.querySelector(".modal-close");
 
 
+
 modalToggle.forEach(element => {
   element.addEventListener("click", (event) => {
     event.preventDefault();
@@ -84,3 +85,5 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+
